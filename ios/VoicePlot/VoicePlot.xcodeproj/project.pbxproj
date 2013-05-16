@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327EF24915CAC06200F5765A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EF24815CAC06200F5765A /* UIKit.framework */; };
+		327EF24B15CAC06200F5765A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EF24A15CAC06200F5765A /* Foundation.framework */; };
+		327EF24D15CAC06200F5765A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EF24C15CAC06200F5765A /* CoreGraphics.framework */; };
+		327EF25315CAC06200F5765A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327EF25115CAC06200F5765A /* InfoPlist.strings */; };
+		327EF25515CAC06200F5765A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF25415CAC06200F5765A /* main.m */; };
+		327EF25915CAC06200F5765A /* VPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF25815CAC06200F5765A /* VPAppDelegate.m */; };
+		327EF25C15CAC06200F5765A /* VPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF25B15CAC06200F5765A /* VPViewController.m */; };
+		327EF25F15CAC06200F5765A /* VPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327EF25D15CAC06200F5765A /* VPViewController.xib */; };
+		327EF26C15CAC0D800F5765A /* calFlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF26715CAC0D800F5765A /* calFlowController.m */; };
+		327EF26D15CAC0D800F5765A /* dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF26915CAC0D800F5765A /* dictionary.m */; };
+		327EF26E15CAC0D800F5765A /* funMiningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF26B15CAC0D800F5765A /* funMiningController.m */; };
+		327EF27015CAC10F00F5765A /* iFlyISR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EF26F15CAC10F00F5765A /* iFlyISR.framework */; };
+		327EF28015CAC14000F5765A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF27F15CAC12800F5765A /* Reachability.m */; };
+		327EF28215CAC16100F5765A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EF28115CAC16100F5765A /* CFNetwork.framework */; };
+		327EF28415CAC19200F5765A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EF28315CAC19200F5765A /* AudioToolbox.framework */; };
+		327EF28615CAC19B00F5765A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EF28515CAC19B00F5765A /* SystemConfiguration.framework */; };
+		327EF28715CAC1BB00F5765A /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF27415CAC12800F5765A /* NSObject+SBJSON.m */; };
+		327EF28815CAC1BB00F5765A /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF27615CAC12800F5765A /* NSString+SBJSON.m */; };
+		327EF28915CAC1BB00F5765A /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF27815CAC12800F5765A /* SBJsonBase.m */; };
+		327EF28A15CAC1BB00F5765A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF27A15CAC12800F5765A /* SBJsonParser.m */; };
+		327EF28B15CAC1BB00F5765A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EF27C15CAC12800F5765A /* SBJsonWriter.m */; };
+		327EF28D15CACFE600F5765A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EF28C15CACFE600F5765A /* QuartzCore.framework */; };
+		329A48C415D14D9700C570EA /* VPPlotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329A48C215D14D9700C570EA /* VPPlotController.m */; };
+		329A48C515D14D9700C570EA /* VPPlotController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329A48C315D14D9700C570EA /* VPPlotController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		327EF24415CAC06200F5765A /* VoicePlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoicePlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		327EF24815CAC06200F5765A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		327EF24A15CAC06200F5765A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		327EF24C15CAC06200F5765A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		327EF25015CAC06200F5765A /* VoicePlot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoicePlot-Info.plist"; sourceTree = "<group>"; };
+		327EF25215CAC06200F5765A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		327EF25415CAC06200F5765A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		327EF25615CAC06200F5765A /* VoicePlot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoicePlot-Prefix.pch"; sourceTree = "<group>"; };
+		327EF25715CAC06200F5765A /* VPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPAppDelegate.h; sourceTree = "<group>"; };
+		327EF25815CAC06200F5765A /* VPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPAppDelegate.m; sourceTree = "<group>"; };
+		327EF25A15CAC06200F5765A /* VPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPViewController.h; sourceTree = "<group>"; };
+		327EF25B15CAC06200F5765A /* VPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPViewController.m; sourceTree = "<group>"; };
+		327EF25E15CAC06200F5765A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VPViewController.xib; sourceTree = "<group>"; };
+		327EF26615CAC0D800F5765A /* calFlowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calFlowController.h; sourceTree = "<group>"; };
+		327EF26715CAC0D800F5765A /* calFlowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calFlowController.m; sourceTree = "<group>"; };
+		327EF26815CAC0D800F5765A /* dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictionary.h; sourceTree = "<group>"; };
+		327EF26915CAC0D800F5765A /* dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dictionary.m; sourceTree = "<group>"; };
+		327EF26A15CAC0D800F5765A /* funMiningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = funMiningController.h; sourceTree = "<group>"; };
+		327EF26B15CAC0D800F5765A /* funMiningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = funMiningController.m; sourceTree = "<group>"; };
+		327EF26F15CAC10F00F5765A /* iFlyISR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iFlyISR.framework; path = iflylib/iFlyISR.framework; sourceTree = "<group>"; };
+		327EF27215CAC12800F5765A /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		327EF27315CAC12800F5765A /* NSObject+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		327EF27415CAC12800F5765A /* NSObject+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		327EF27515CAC12800F5765A /* NSString+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		327EF27615CAC12800F5765A /* NSString+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		327EF27715CAC12800F5765A /* SBJsonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		327EF27815CAC12800F5765A /* SBJsonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		327EF27915CAC12800F5765A /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		327EF27A15CAC12800F5765A /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		327EF27B15CAC12800F5765A /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		327EF27C15CAC12800F5765A /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		327EF27E15CAC12800F5765A /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		327EF27F15CAC12800F5765A /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		327EF28115CAC16100F5765A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		327EF28315CAC19200F5765A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		327EF28515CAC19B00F5765A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		327EF28C15CACFE600F5765A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		329A48C115D14D9700C570EA /* VPPlotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPlotController.h; sourceTree = "<group>"; };
+		329A48C215D14D9700C570EA /* VPPlotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPlotController.m; sourceTree = "<group>"; };
+		329A48C315D14D9700C570EA /* VPPlotController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPPlotController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327EF24115CAC06200F5765A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327EF28D15CACFE600F5765A /* QuartzCore.framework in Frameworks */,
+				327EF28615CAC19B00F5765A /* SystemConfiguration.framework in Frameworks */,
+				327EF28415CAC19200F5765A /* AudioToolbox.framework in Frameworks */,
+				327EF28215CAC16100F5765A /* CFNetwork.framework in Frameworks */,
+				327EF27015CAC10F00F5765A /* iFlyISR.framework in Frameworks */,
+				327EF24915CAC06200F5765A /* UIKit.framework in Frameworks */,
+				327EF24B15CAC06200F5765A /* Foundation.framework in Frameworks */,
+				327EF24D15CAC06200F5765A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327EF23915CAC06200F5765A = {
+			isa = PBXGroup;
+			children = (
+				327EF26515CAC0D800F5765A /* funMining */,
+				327EF24E15CAC06200F5765A /* VoicePlot */,
+				327EF24715CAC06200F5765A /* Frameworks */,
+				327EF24515CAC06200F5765A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		327EF24515CAC06200F5765A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327EF24415CAC06200F5765A /* VoicePlot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327EF24715CAC06200F5765A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327EF28C15CACFE600F5765A /* QuartzCore.framework */,
+				327EF28515CAC19B00F5765A /* SystemConfiguration.framework */,
+				327EF28315CAC19200F5765A /* AudioToolbox.framework */,
+				327EF28115CAC16100F5765A /* CFNetwork.framework */,
+				327EF27115CAC12800F5765A /* JSON */,
+				327EF27D15CAC12800F5765A /* Reachability */,
+				327EF26F15CAC10F00F5765A /* iFlyISR.framework */,
+				327EF24815CAC06200F5765A /* UIKit.framework */,
+				327EF24A15CAC06200F5765A /* Foundation.framework */,
+				327EF24C15CAC06200F5765A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		327EF24E15CAC06200F5765A /* VoicePlot */ = {
+			isa = PBXGroup;
+			children = (
+				327EF25715CAC06200F5765A /* VPAppDelegate.h */,
+				327EF25815CAC06200F5765A /* VPAppDelegate.m */,
+				329A48C115D14D9700C570EA /* VPPlotController.h */,
+				329A48C215D14D9700C570EA /* VPPlotController.m */,
+				329A48C315D14D9700C570EA /* VPPlotController.xib */,
+				327EF25A15CAC06200F5765A /* VPViewController.h */,
+				327EF25B15CAC06200F5765A /* VPViewController.m */,
+				327EF25D15CAC06200F5765A /* VPViewController.xib */,
+				327EF24F15CAC06200F5765A /* Supporting Files */,
+			);
+			path = VoicePlot;
+			sourceTree = "<group>";
+		};
+		327EF24F15CAC06200F5765A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				327EF25015CAC06200F5765A /* VoicePlot-Info.plist */,
+				327EF25115CAC06200F5765A /* InfoPlist.strings */,
+				327EF25415CAC06200F5765A /* main.m */,
+				327EF25615CAC06200F5765A /* VoicePlot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		327EF26515CAC0D800F5765A /* funMining */ = {
+			isa = PBXGroup;
+			children = (
+				327EF26615CAC0D800F5765A /* calFlowController.h */,
+				327EF26715CAC0D800F5765A /* calFlowController.m */,
+				327EF26815CAC0D800F5765A /* dictionary.h */,
+				327EF26915CAC0D800F5765A /* dictionary.m */,
+				327EF26A15CAC0D800F5765A /* funMiningController.h */,
+				327EF26B15CAC0D800F5765A /* funMiningController.m */,
+			);
+			path = funMining;
+			sourceTree = "<group>";
+		};
+		327EF27115CAC12800F5765A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				327EF27215CAC12800F5765A /* JSON.h */,
+				327EF27315CAC12800F5765A /* NSObject+SBJSON.h */,
+				327EF27415CAC12800F5765A /* NSObject+SBJSON.m */,
+				327EF27515CAC12800F5765A /* NSString+SBJSON.h */,
+				327EF27615CAC12800F5765A /* NSString+SBJSON.m */,
+				327EF27715CAC12800F5765A /* SBJsonBase.h */,
+				327EF27815CAC12800F5765A /* SBJsonBase.m */,
+				327EF27915CAC12800F5765A /* SBJsonParser.h */,
+				327EF27A15CAC12800F5765A /* SBJsonParser.m */,
+				327EF27B15CAC12800F5765A /* SBJsonWriter.h */,
+				327EF27C15CAC12800F5765A /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = iflylib/JSON;
+			sourceTree = "<group>";
+		};
+		327EF27D15CAC12800F5765A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				327EF27E15CAC12800F5765A /* Reachability.h */,
+				327EF27F15CAC12800F5765A /* Reachability.m */,
+			);
+			name = Reachability;
+			path = iflylib/Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327EF24315CAC06200F5765A /* VoicePlot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327EF26215CAC06200F5765A /* Build configuration list for PBXNativeTarget "VoicePlot" */;
+			buildPhases = (
+				327EF24015CAC06200F5765A /* Sources */,
+				327EF24115CAC06200F5765A /* Frameworks */,
+				327EF24215CAC06200F5765A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoicePlot;
+			productName = VoicePlot;
+			productReference = 327EF24415CAC06200F5765A /* VoicePlot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327EF23B15CAC06200F5765A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VP;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Yuan Xingliang";
+			};
+			buildConfigurationList = 327EF23E15CAC06200F5765A /* Build configuration list for PBXProject "VoicePlot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 327EF23915CAC06200F5765A;
+			productRefGroup = 327EF24515CAC06200F5765A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327EF24315CAC06200F5765A /* VoicePlot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		327EF24215CAC06200F5765A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327EF25315CAC06200F5765A /* InfoPlist.strings in Resources */,
+				327EF25F15CAC06200F5765A /* VPViewController.xib in Resources */,
+				329A48C515D14D9700C570EA /* VPPlotController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		327EF24015CAC06200F5765A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327EF28715CAC1BB00F5765A /* NSObject+SBJSON.m in Sources */,
+				327EF28815CAC1BB00F5765A /* NSString+SBJSON.m in Sources */,
+				327EF28915CAC1BB00F5765A /* SBJsonBase.m in Sources */,
+				327EF28A15CAC1BB00F5765A /* SBJsonParser.m in Sources */,
+				327EF28B15CAC1BB00F5765A /* SBJsonWriter.m in Sources */,
+				327EF28015CAC14000F5765A /* Reachability.m in Sources */,
+				327EF25515CAC06200F5765A /* main.m in Sources */,
+				327EF25915CAC06200F5765A /* VPAppDelegate.m in Sources */,
+				327EF25C15CAC06200F5765A /* VPViewController.m in Sources */,
+				327EF26C15CAC0D800F5765A /* calFlowController.m in Sources */,
+				327EF26D15CAC0D800F5765A /* dictionary.m in Sources */,
+				327EF26E15CAC0D800F5765A /* funMiningController.m in Sources */,
+				329A48C415D14D9700C570EA /* VPPlotController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		327EF25115CAC06200F5765A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327EF25215CAC06200F5765A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		327EF25D15CAC06200F5765A /* VPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327EF25E15CAC06200F5765A /* en */,
+			);
+			name = VPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		327EF26015CAC06200F5765A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		327EF26115CAC06200F5765A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		327EF26315CAC06200F5765A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iflylib\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoicePlot/VoicePlot-Prefix.pch";
+				INFOPLIST_FILE = "VoicePlot/VoicePlot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		327EF26415CAC06200F5765A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iflylib\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoicePlot/VoicePlot-Prefix.pch";
+				INFOPLIST_FILE = "VoicePlot/VoicePlot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		327EF23E15CAC06200F5765A /* Build configuration list for PBXProject "VoicePlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327EF26015CAC06200F5765A /* Debug */,
+				327EF26115CAC06200F5765A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327EF26215CAC06200F5765A /* Build configuration list for PBXNativeTarget "VoicePlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327EF26315CAC06200F5765A /* Debug */,
+				327EF26415CAC06200F5765A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327EF23B15CAC06200F5765A /* Project object */;
+}
