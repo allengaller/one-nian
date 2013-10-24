@@ -28,4 +28,23 @@ Manage your skill learning progress.
 Share with other programmer.  
 - **CoderUp Tester**  
 See your changes instantly via quizs.
+
+致敬
+----
+ThoughtWorks   
+
+我们的文化特征和价值观：
+
+* 做正确的事情   
+* 态度、能力、诚信
+* 服务他人和社会胜于满足自己   
+* 团结互助，胜过怜悯施舍   
+* 服务宏大愿景胜过达成短期目标   
+* 个人和组织的透明度   
+* 好奇心、创意、激情   
+* 快速验证并且公开错误   
+* 不容忍偏狭   
+* 不做技术怪人   
+* 价值观吻合，松散耦合   
+
 	
