@@ -1,4 +1,4 @@
-# Runbits #
+# Runbit - Code Better, Live Better#
 * aka the CoderUp project - a GTD toolkit for Coders *
 
 **CodeUp** is a full-featured Personal Management and GTD App and Website for programmers.
@@ -21,11 +21,11 @@ How about get yourself spurred and **make it happen**?
 Features
 --------
 
-* **CoderUp MindKit**: Mindmap out your total skill tree.  
-* **CoderUp Planer**: Make a skill improving plan.  
-* **CoderUp Guider**: Manage your skill learning progress.  
-* **CoderUp Bazaar**: Share with other programmer.  
-***CoderUp Tester**: See your changes instantly via quizs.
+* **Runbit MindKit**: Mindmap out your total skill tree.  
+* **Runbit Planer**: Make a skill improving plan.  
+* **Runbit Guider**: Manage your skill learning progress.  
+* **Runbit Bazaar**: Share with other programmer.  
+* **Runbit Tester**: See your changes instantly via quizs.
 
 Client Installation
 --------------------
