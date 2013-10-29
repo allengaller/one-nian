@@ -1,4 +1,4 @@
-# Runbits 骚码鸡血器#
+# Runbits #
 * aka the CoderUp project - a GTD toolkit for Coders *
 
 **CodeUp** is a full-featured Personal Management and GTD App and Website for programmers.
@@ -7,7 +7,8 @@ It helps programmer to be more pragmatic and productively by continuously self-i
 
 [flow experience]:http://en.wikipedia.org/wiki/Flow_%28psychology%29
 
-## Guideline ##
+Why Runbit
+----------
 Wanna make something *legendary*?  
 Wanna become a *rockstart programmer*?  
 Wanna load up with *new languages and skills*?  
@@ -17,17 +18,50 @@ How about get yourself spurred and **make it happen**?
 
 > You are who you wanna be.
 
-## Features ##
--  **CoderUp MindKit**  
-Mindmap out your total skill tree.  
-- **CoderUp Planer**  
-Make a skill improving plan.  
-- **CoderUp Guider**  
-Manage your skill learning progress.  
-- **CoderUp Bazaar**  
-Share with other programmer.  
-- **CoderUp Tester**  
-See your changes instantly via quizs.
+Features
+--------
+
+* **CoderUp MindKit**: Mindmap out your total skill tree.  
+* **CoderUp Planer**: Make a skill improving plan.  
+* **CoderUp Guider**: Manage your skill learning progress.  
+* **CoderUp Bazaar**: Share with other programmer.  
+***CoderUp Tester**: See your changes instantly via quizs.
+
+Client Installation
+--------------------
+Coming soon.   
+
+Server Deployment
+-----------------
+Coming soon.
+
+About us
+--------
+[Apps4Coder Studio](http://apps4coder.com)
+
+Donation
+--------
+http://me.alipay.com/allengaller   
+
+# 骚码鸡血器 #
+
+为何做骚码?
+----------
+
+功能特性
+--------
+
+客户端安装
+----------
+
+服务器端部署
+-----------
+
+关于我们
+--------
+
+捐赠
+----
 
 致敬
 ----
